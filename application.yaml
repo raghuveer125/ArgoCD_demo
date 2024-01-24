@@ -7,11 +7,11 @@ spec:
   project: default
 
   source:
-    repoURL:
+    repoURL: https://github.com/raghuveer125/ArgoCD_demo.git
     targetRevision: HEAD
     path: dev
   destination:
-    server: https://kubernets.default.svc
+    server: https://kubernetes.default.svc
     namespace: myapp
 
   syncPolicy:
